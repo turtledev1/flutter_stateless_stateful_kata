@@ -1,16 +1,23 @@
-# flutter_stateless_stateful_kata
+# Flutter Stateless and Stateful Kata
 
-A new Flutter project.
+A kata designed to introduce the creation of custom Widgets. It requires understanding of the difference between Stateless and Stateful Widgets.
+
+Prior knowledge requirements:
+- Finding components in the [Flutter widget catalog](https://docs.flutter.dev/ui/widgets)
+- `Text`, `Column` and `Row` Widgets
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The goal of this KAra is to reproduce below screenshot
 
-A few resources to get you started if this is your first Flutter project:
+![UI to reproduce](assets/ui-to-reproduce.png?raw=true)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Specs:
+- UI is centered vertically
+- There is 32px between the title and the counter
+- The title needs to be a Stateless Widget
+- The counter needs to be a Stateful Widget
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Challenges:
+- Make title bigger (font size 24)
+- Add an optional parameter to the counter widget to start the counter at a different number than 0
