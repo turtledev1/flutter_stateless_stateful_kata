@@ -36,7 +36,7 @@ class MyHomePage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         spacing: 32,
-        children: const <Widget>[
+        children: [
           AppTitle(title: 'This is a counter'),
           Counter(initialCount: 4),
         ],
