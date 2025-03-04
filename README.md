@@ -8,7 +8,7 @@ Prior knowledge requirements:
 
 ## Getting Started
 
-The goal of this KAra is to reproduce below screenshot
+The goal of this Kata is to reproduce below screenshot
 
 ![UI to reproduce](assets/ui-to-reproduce.png?raw=true)
 
