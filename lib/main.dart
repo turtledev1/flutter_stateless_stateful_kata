@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_stateless_stateful_kata/widgets/counter.dart';
+import 'package:flutter_stateless_stateful_kata/widgets/app_title.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +32,15 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text('Kata 2'),
       ),
-      body: <code here>,
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        spacing: 32,
+        children: const <Widget>[
+          AppTitle(title: 'This is a counter'),
+          Counter(initialCount: 4),
+        ],
+      ),
     );
   }
 }
