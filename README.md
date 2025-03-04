@@ -17,6 +17,7 @@ Specs:
 - There is 32px between the title and the counter
 - The title needs to be a Stateless Widget
 - The counter needs to be a Stateful Widget
+- The counter is using an [IconButton](https://api.flutter.dev/flutter/material/IconButton-class.html)
 
 Challenges:
 - Make title bigger (font size 24)
